@@ -71,6 +71,11 @@ const RegisterUser = () => {
                   name="contact"
                   type="tel"
                   autoComplete="tel"
+                  maxLength="10"
+                  onInput={(e) => {
+                    e.target.value = e.target.value
+                      .replace(/[^0-9]/g, "");
+                  }}
                   required
                   className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
                 />

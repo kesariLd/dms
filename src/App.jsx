@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const textItems = [
-  "Welcome to Our App",
+  "Welcome to Our DMS",
   "Discover Amazing Features",
   "Join Our Community"
 ];
@@ -62,3 +62,22 @@ function App() {
 }
 
 export default App;
+
+
+// const App = () => {
+//   return (
+//     <div className="bg-white grid place-content-center h-screen">
+//       <h1 className="text-3xl font-bold text-black">Hello, World!</h1>
+//       <div className="bg-slate-400 p-4 rounded-md mt-3 flex">
+//       <div className="w-11 place-content-start">
+//         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoKBWzGnXQd9a8aettVe_L1UxuwQ81ygOWMA&s" alt="Logo" />
+//       </div>
+//       <div className="font-bold ml-auto">
+//         <p>Hello, World!</p>
+//       </div>  
+//       </div>
+//     </div>
+//   )
+// }
+
+// export default App
