@@ -12,7 +12,7 @@ const RegisterUser = () => {
 
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
         <div className="bg-white py-8 px-6 shadow-md rounded-lg">
-          <form className="space-y-6" action="#" method="POST">
+          <form className="space-y-6" >
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-800">
                 Name
